@@ -33,7 +33,6 @@ requirements.txt
 
 
 ## train
-（cd MXX）
 deepspeed --num_gpus=5 GSEMI2MoE\train.py --deepspeed --deepspeed_config config.json
 
 ## envirement
@@ -49,3 +48,4 @@ Python  3.10(ubuntu22.04)
 CUDA  12.1
 
 pip install -r requirements.txt
+
