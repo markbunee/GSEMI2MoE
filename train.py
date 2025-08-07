@@ -169,7 +169,7 @@ def main(args):
         save_dir = os.path.join("models", 'my_models') ###########################################################模型保存地址
 
         os.makedirs(save_dir, exist_ok=True)
-        os.makedirs(os.path.join(args.dataset, 'logs'), exist_ok=True)
+        os.makedirs(os.path.join(args.dataset, 'logs_0801'), exist_ok=True)
     
     torch.backends.cudnn.deterministic = True
     torch.set_float32_matmul_precision('high')
